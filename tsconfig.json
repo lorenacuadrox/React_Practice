@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "target": "ESNext",
+        "module": "ESNext",
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "baseUrl": "./src",
+        "jsxImportSource": "react",
+        "paths": {
+            "$/*": ["./*"]
+        },
+        "lib": ["DOM", "ESNext"]
+    }
+}
